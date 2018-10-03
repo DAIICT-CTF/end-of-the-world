@@ -100,7 +100,7 @@ for row in range(7):
 #the offset is how far to the right we want to print the message.
 #initially, we want to print the message just off the display.
 offset = WIDTH
-while True:
+while offset>0:
     os.system("cls")
     #print each line of the message, including the offset.
     for row in range(7):
