@@ -7,7 +7,7 @@ import time
 WIDTH = 79
 
 #the message we wish to print
-message = "Hello!".upper()
+message = "Welcome!".upper()
 #the printed banner version of the message
 #this is a 7-line display, stored as 7 strings
 #initially, these are empty.
